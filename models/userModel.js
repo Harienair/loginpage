@@ -17,25 +17,3 @@ const model = mongoose.model('UserData', User)
 
 
 module.exports = model
-
-/*
-Name:yup.string().max(20,'Name should not exceed 20 Characters').
-
-      required('Please Enter Employee Name'),
-
-      Location: yup.string()
-
-        .required('Please Enter Employee Location'),
-
-      EmailId: yup.string()
-
-        .email('Invalid email address')
-
-        .required('Please Enter Email Id')
-
-    })} onSubmit= {values => {
-
-      alert(JSON.stringify(values));
-
-    }}>
-*/
