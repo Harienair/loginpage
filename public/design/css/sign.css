@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(220, 240, 240);
+    text-align: center;
+}
+
+.form{
+    margin-top: 10px;
+  
+}
+
+.sign-form{
+    margin-top: 100px;
+    padding: 30px;
+
+}
+
+.sign-form input{
+    margin-left: 290px;
+    outline: none;
+    padding: 15px;
+    width: 55%;
+    height: 25px;
+
+}
+
+.sign-form label{
+    display: flex;
+    flex-direction: column;
+    color: rgb(18, 20, 22);
+    margin-bottom: 25px;
+}
+.sign-form button{
+    padding: 10px;
+    color: rgb(231, 231, 231);
+    background-color: black;
+    margin-top: 10px;
+}
+.sign-form button:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+.log-form{
+    
+    margin-top: 100px;
+    padding: 10px;
+
+
+}
+
+.log-form input{
+    margin-top: 20px;
+    margin-left: 480px;
+    outline: none;
+    padding: 15px;
+    width: 30%;
+    height: 25px;
+}
+
+.log-form label{
+    display: flex;
+    flex-direction: column;
+    color: rgb(18, 20, 22);
+    margin-bottom: 25px;
+}
+.log-form button{
+    padding: 10px;
+    color: rgb(14, 13, 13);
+    background-color: rgb(224, 221, 221);
+    margin-top: 10px;
+}
+.log-form button:hover{
+    color: aliceblue;
+    background-color: rgb(15, 15, 15);
+}
